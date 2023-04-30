@@ -6,6 +6,7 @@ https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/
 
 Sotware requies to run and use  this Web App
  1. PHP 8.2.4
+ 2. Laravel 10
  2. XAMPP Server
  3. Composer
  4. Git 
