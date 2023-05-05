@@ -106,8 +106,9 @@ class TaskController extends Controller
          {
              //found
              $task=Task::all();
+             $project=Project::all();
              $task1=Task::find($id);
-             $data=compact('task','task1');
+             $data=compact('task','task1','project');
               return view('task')->with($data);
          }
     }
